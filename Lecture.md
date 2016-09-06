@@ -44,7 +44,7 @@ April 17, 2015     |Spark 1.3.1    |Bug fixes, minor changes
 
 ## Matei Zaharia
 
-<img style="width:50%" src="images/matei.jpg">
+<img style="width:50%" src="https://cs.stanford.edu/~matei/matei5.jpg">
 
 ## Essense of Spark
 
