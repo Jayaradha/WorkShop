@@ -13,4 +13,6 @@ By the end of this lecture, you will be able to:
 
 - Use Spark to analyze stock market data
 
-# Practice Lab - Analyse Stock price using Spark
+# Practice Lab 
+
+ - Analyse Stock price using Spark
