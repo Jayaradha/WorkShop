@@ -44,7 +44,7 @@ April 17, 2015     |Spark 1.3.1    |Bug fixes, minor changes
 
 ## Matei Zaharia
 
-<img style="width:50%" src="https://cs.stanford.edu/~matei/matei5.jpg">
+<img style="width:50%" src="https://qph.ec.quoracdn.net/main-thumb-8644-200-idoxbttmjhqhdlxtlvgodiymfpvvoidm.jpeg">
 
 ## Essense of Spark
 
@@ -98,7 +98,7 @@ cp log4j.properties.template log4j.properties
 
 ## Spark Execution
 
-<img src="https://qph.ec.quoracdn.net/main-thumb-8644-200-idoxbttmjhqhdlxtlvgodiymfpvvoidm.jpeg">
+<img src="https://spark.apache.org/docs/1.1.1/img/cluster-overview.png">
 
 
 ## Spark Terminology
