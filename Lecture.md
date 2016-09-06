@@ -1,4 +1,4 @@
-<img src="images/spark-logo.png">
+<img src="http://spark.apache.org/images/spark-logo-trademark.png">
 
 # Apache Spark
 
@@ -17,8 +17,6 @@ What is Spark?
 Why learn Spark?
 
 - Spark enables you to analyze petabytes of data.
-
-- Spark skills are in high demand--<http://indeed.com/salary>.
 
 - Spark is signficantly faster than MapReduce.
 
@@ -100,7 +98,7 @@ cp log4j.properties.template log4j.properties
 
 ## Spark Execution
 
-<img src="images/spark-cluster.png">
+<img src="https://spark.apache.org/docs/1.1.1/img/cluster-overview.png">
 
 
 ## Spark Terminology
