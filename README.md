@@ -1,4 +1,4 @@
-# Welcome to WorkShop on Apache Spark for processing Big Data
+# Apache Spark for processing Big Data
 
 Apache Spark is an open source big data processing framework built around speed, ease of use, and sophisticated analytics
 
