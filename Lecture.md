@@ -98,7 +98,7 @@ cp log4j.properties.template log4j.properties
 
 ## Spark Execution
 
-<img src="https://spark.apache.org/docs/1.1.1/img/cluster-overview.png">
+<img src="https://qph.ec.quoracdn.net/main-thumb-8644-200-idoxbttmjhqhdlxtlvgodiymfpvvoidm.jpeg">
 
 
 ## Spark Terminology
