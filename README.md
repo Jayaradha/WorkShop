@@ -1,6 +1,16 @@
-# Apache Spark for processing Big Data
+# Workshop on Building Big Data Pipeline with Apache Spark
 
 Apache Spark is an open source big data processing framework built around speed, ease of use, and sophisticated analytics
+
+#What is Big Data?
+ - Large Volume of Data
+    - Structured
+    - UnStructured
+       - Volume
+       - Verity
+       - Velocity
+
+# Big Data Pipeline
 
 
 # Lecture
@@ -11,7 +21,7 @@ By the end of this lecture, you will be able to:
 
 - Use the Spark shell to compose and execute Spark commands
 
-- Use Spark to analyze stock market data
+- Use Spark to analyze apache access.log file
 
 # Practice Lab 
 
