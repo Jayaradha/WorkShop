@@ -25,4 +25,4 @@ By the end of this lecture, you will be able to:
 
 # Practice Lab 
 
- - Analyse Stock price using Spark
+ - Analyse Apache access.log using Spark
