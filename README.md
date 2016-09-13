@@ -11,7 +11,7 @@ Apache Spark is an open source big data processing framework built around speed,
        - Velocity
 
 # Big Data Pipeline
-
+<img src = "https://github.com/Jayaradha/WorkShop/blob/master/Screen%20Shot%202016-09-13%20at%2011.04.15%20AM.png?raw=true">
 
 # Lecture
 
