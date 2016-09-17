@@ -4,7 +4,7 @@ Follow these steps for installing Spark on your laptop.
 
 1. Go to this [link](http://spark.apache.org/downloads.html). 
 
-2. *Choose a Spark release: 1.5.2*
+2. *Choose a Spark release: 1.6.2*
 
 3. *Choose a package type: Pre-built for Hadoop 2.6 and later*. 
 
@@ -86,40 +86,18 @@ local mode.
 ## Part 2: Transformations and Actions
 
 Use
-<http://real-chart.finance.yahoo.com/table.csv?s=CSCO&g=d&ignore=.csv>
-to download the most recent stock prices of CSCO, and save it to
-`csco.csv`.
+<https://github.com/Jayaradha/WorkShop/blob/master/accesslog.txt>
+download the apache access logs and analyse the log file
+`accesslog.txt`.
 
 Here are some useful functions for doing this.
 
 ```scala
-// Grab URL contents
-def getUrl(url:String):String = 
-  scala.io.Source.fromURL(url).mkString
+var txt = sc.textFile("access.log")
+var l200 = txt.filter(line => line.contains("200"))
 
-// Write file
-def fileWrite(path:String,contents:String) = {
-  import java.io.{PrintWriter,File}
-  val writer = new PrintWriter(new File(path))
-  writer.write(contents)
-  writer.close
-}
-
-val symbol = "CSCO"
-val baseUrl = "http://real-chart.finance.yahoo.com"
-val url = s"${baseUrl}/table.csv?s=${symbol}&g=d&ignore=.csv"
-val csv = getUrl(url)
-fileWrite(s"${symbol}.csv", csv)
-```
-
-Next, use Spark to answer the following questions. Note, you already
-have the file downloaded into `CSCOA.csv`. So your code should not
-download it repeatedly. Just use the local copy that you downloaded.
 
 Q: How many records are there in this CSV?
 
-Q: Find the min, max Stockprice.
+Q: Find all 404 Errors 
 
-Q: Find the dates of the 3 highest adjusted close prices.
-
-Q: Find the date of the 3 lowest adjusted close prices.
