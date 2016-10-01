@@ -93,7 +93,7 @@ Here are some useful functions for doing this.
 
 ```scala
 var txtRdd = sc.textFile("accesslog.txt")
-var l200Rdd = txtRdd.filter(line => line.contains("200"))
+var status200Rdd = txtRdd.filter(line => line.contains("200"))
 
 Q: How many records are there in this CSV?
 
