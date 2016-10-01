@@ -93,9 +93,8 @@ download the apache access logs and analyse the log file
 Here are some useful functions for doing this.
 
 ```scala
-var txt = sc.textFile("access.log")
-var l200 = txt.filter(line => line.contains("200"))
-
+var txtRdd = sc.textFile("accesslog.txt")
+var l200Rdd = txtRdd.filter(line => line.contains("200"))
 
 Q: How many records are there in this CSV?
 
