@@ -56,7 +56,7 @@ local mode.
    Lets create an RDD from a list.
    
    ```scala
-   val listRdd = sc.parallelize(1 to 3)
+   val listRdd = sc.parallelize(1 to 100)
    ```
 
 3. RDDs are lazy so they do not load the data from disk unless it is
@@ -70,7 +70,7 @@ local mode.
  
    ```scala
    listRdd.first   // Views the first entry
-   listRdd.take(2) // Views the first two entries
+   listRdd.take(20) // Views the first 20 entries
    ```
     
 4. If you want to get all the data from the partitions to be sent back
