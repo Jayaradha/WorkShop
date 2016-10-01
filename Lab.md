@@ -69,8 +69,8 @@ local mode.
    results? Exactly. It just loads the partitions it needs.
  
    ```scala
-   fileRdd.first   // Views the first entry
-   fileRdd.take(2) // Views the first two entries
+   listRdd.first   // Views the first entry
+   listRdd.take(2) // Views the first two entries
    ```
     
 4. If you want to get all the data from the partitions to be sent back
@@ -79,7 +79,6 @@ local mode.
    are developing with a small test dataset.
    
    ```scala
-   fileRdd.collect
    listRdd.collect
    ```
 
