@@ -92,10 +92,23 @@ download the apache access logs and analyse the log file
 Here are some useful functions for doing this.
 
 ```scala
-var txtRdd = sc.textFile("accesslog.txt")
-var status200Rdd = txtRdd.filter(line => line.contains("200"))
+var txtRdd= sc.textFile("accesslog.txt")
 
 Q: How many records are there in this CSV?
+txtRdd.count
 
-Q: Find all 404 Errors 
+Q: Find all 200 Staus code 
+
+var status200Rdd = txtRdd.filter(line => line.contains("200"))
+status200Rdd.count
+
+Q: Find all 404 Status code 
+var status404Rdd = txtRdd.filter(line => line.contains("404"))
+status404Rdd.count
+
+Q: Find all 401 Status code 
+var status401Rdd = txtRdd.filter(line => line.contains("401"))
+status401Rdd.count
+
+
 
